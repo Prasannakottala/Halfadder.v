@@ -1,6 +1,6 @@
 vlib work
-vlog andstr.v 
-vlog andstr_tb.v 
-vsim work.andstr_tb
+vlog halfadder.v 
+vlog halfadder_tb.v 
+vsim work.halfadder_tb
 add wave -r *
 run -all
